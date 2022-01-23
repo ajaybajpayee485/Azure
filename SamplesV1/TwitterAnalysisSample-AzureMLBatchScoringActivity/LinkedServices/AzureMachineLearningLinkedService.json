@@ -1,0 +1,10 @@
+{
+  "name": "AzureMachineLearningLinkedService",
+  "properties": {
+    "type": "AzureML",
+    "typeProperties": {
+      "mlEndpoint": "",
+      "apiKey": ""
+    }
+  }
+}
