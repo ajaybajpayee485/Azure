@@ -1,0 +1,19 @@
+{
+  "name": "ContosoTweetsBlob",
+  "properties": {
+    "type": "AzureBlob",
+    "linkedServiceName": "StorageLinkedService",
+    "typeProperties": {
+      "folderPath": "twitteranalysis/twitter/aggregate/TweetsBlob/",
+      "fileName": "Tweets.csv",
+      "format": {
+        "type": "TextFormat",
+        "columnDelimiter": ","
+      }
+    },
+    "availability": {
+      "frequency": "minute",
+      "interval": 15
+    }
+  }
+}
